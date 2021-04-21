@@ -19,14 +19,14 @@ const AddCategory = ({ setCategories }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="form-group">
-        <label for="inputValue">Insert the category that you looking for</label>
+      <div className="form-group mt-4">
         <input
           id="inputValue"
           className="form-control form-control-lg"
           value={inputValue}
           type="text"
           onChange={handleInputChange}
+          placeholder="Insert the category"
         />
       </div>
     </form>

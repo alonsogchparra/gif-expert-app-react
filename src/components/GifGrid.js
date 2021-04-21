@@ -13,7 +13,7 @@ const GifGrid = ({ category }) => {
         <h3 className="animate__animated animate__fadeIn">{category}</h3>
       </div>
 
-      {loading && <p>Loading...</p>}
+      {loading && <p className="mb-4">Loading...</p>}
 
       <div className="row row-cols-1 row-cols-md-3">
         {gifs.map((gif) => (
