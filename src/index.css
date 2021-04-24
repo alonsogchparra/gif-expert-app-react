@@ -17,3 +17,7 @@ code {
   background-color: #f8f8f8;
   min-height: 100vh;
 }
+
+nav.custom-footer p {
+  margin-top: 1rem;
+}
