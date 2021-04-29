@@ -43,7 +43,7 @@ const App = ({ defaultCategories = [] }) => {
 
       <nav className="navbar fixed-bottom navbar-dark bg-dark text-white custom-footer">
         <div className="mx-auto">
-          <div className="d-flex flex-column flex-md-row justify-align-content-center align-items-center">
+          <div className="d-flex flex-row justify-align-content-center align-items-center">
             <p className="text-center">
               Check the code on my Github repository
             </p>
