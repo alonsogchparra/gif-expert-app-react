@@ -41,11 +41,13 @@ const App = ({ defaultCategories = [] }) => {
         ))}
       </div>
 
-      <nav class="navbar fixed-bottom navbar-dark bg-dark text-white custom-footer">
+      <nav className="navbar fixed-bottom navbar-dark bg-dark text-white custom-footer">
         <div className="mx-auto">
-          <div className="d-flex justify-content-center align-items-center">
-            <p>Check the code on my repo on Github</p>
-            <p>
+          <div className="d-flex flex-column flex-md-row justify-align-content-center align-items-center">
+            <p className="text-center">
+              Check the code on my Github repository
+            </p>
+            <p className="text-center">
               <a
                 href="https://github.com/alonsogchparra/gif-expert-app-react"
                 target="_blank"
@@ -58,7 +60,9 @@ const App = ({ defaultCategories = [] }) => {
                 </i>
               </a>{" "}
             </p>
-            <p>Copyright &copy; 2021 El Vigía. Mérida. Venezuela</p>
+            <p className="text-center">
+              Copyright &copy; 2021 El Vigía. Mérida. Venezuela
+            </p>
           </div>
         </div>
       </nav>
