@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on AddCategory should show AddCategory correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group mt-4"
+  >
+    <input
+      className="form-control form-control-lg"
+      id="inputValue"
+      onChange={[Function]}
+      placeholder="Insert the category"
+      type="text"
+      value=""
+    />
+  </div>
+</form>
+`;
+
+exports[`Test on AddCategory should text box change 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group mt-4"
+  >
+    <input
+      className="form-control form-control-lg"
+      id="inputValue"
+      onChange={[Function]}
+      placeholder="Insert the category"
+      type="text"
+      value="Hello World"
+    />
+  </div>
+</form>
+`;

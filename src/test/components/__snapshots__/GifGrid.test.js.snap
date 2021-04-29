@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on GifGrid should show GifGrid correctly 1`] = `
+<Fragment>
+  <hr />
+  <div
+    className="col-12 text-center mb-4"
+  >
+    <h3
+      className="animate__animated animate__fadeIn"
+    >
+      Breaking Bad
+    </h3>
+  </div>
+  <div
+    className="col"
+  >
+    <div
+      className="text-center"
+    >
+      <div
+        class="spinner-border"
+        role="status"
+      >
+        <span
+          class="sr-only"
+        >
+          Loading...
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row row-cols-1 row-cols-md-3"
+  />
+</Fragment>
+`;
