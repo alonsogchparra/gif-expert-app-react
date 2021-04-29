@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import AddCategory from "./components/AddCategory";
 import GifGrid from "./components/GifGrid";
-import giphy from "./media/images/giphy-logo.png";
+import giphy from "./media/images/giphy.png";
 
 const App = ({ defaultCategories = [] }) => {
   const [categories, setCategories] = useState(defaultCategories);
